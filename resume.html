@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>My Resume</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font Styling -->
+        <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="navbar row">
+            <div class="icon col-10">
+                <h1>Sai Prudhvi Mucherla</h1>
+            </div>
+            <div>
+                <ul class="no-bullets">
+                    <li id="linktohome"><a href="index.html">Home</a></li>
+                    <li id="linktoresume"><a href="resume.html">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="Prudhvi_resume1.png" alt="resume">
+            <img src="Prudhvi_resume2.png" alt="resume part2">
+        </div>
+
+        <footer class="row">
+            <div class="footerdata col-12">
+                <h5 style="line-height: 10px;">Thanks for stopping by!</h5>
+                <h6>Copyright &copy; 2023 by Prudhvi </h6>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<style>
+    /* For all */
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Manrope';
+        font-size: 16px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    
+    img {
+        width: 100%;
+        transition: transform 0.3s ease;
+    }
+    
+    img:hover {
+        transform: scale(1.2);
+      }
+    
+    .navbar {
+        width: auto;
+        height: 90px;
+        background-color: #F4F0EC;
+    }
+    
+    .sidebar {
+        background-color: #F4F0EC;
+        padding: 20px;
+        transition: background-color 0.3s ease;
+      }
+    
+      .sidebarpart2 {
+        background-color: #f9f8f8;
+        padding: 20px;
+        transition: background-color 0.3s ease;
+      }
+    
+    .sidebar:hover {
+        background-color: #ddd;
+        cursor: pointer;
+      }
+      
+    .icon {
+        padding-left: 40px;
+        padding-top: 20px;
+        font-size: 14px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 9px;
+        color: #28231D;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    .no-bullets {
+        list-style-type: none;
+        display: flex;
+        text-decoration: none;
+        justify-content: space-around;
+    }
+    
+    
+    
+    #linktohome a {
+        color: #1E1E1E;
+        font-weight: 700;
+        list-style-type: none;
+    }
+    
+    
+    #linktoresume a {
+        list-style-type: none;
+        color: #1E1E1E;
+        font-weight: 600;
+    }
+    
+    
+    .intro {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about {
+        padding-top: 40px;
+    }
+    
+    .about h3 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 150%;
+    }
+    
+    h5{
+        line-height: 10px;
+    }
+    .about p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        color: #474747;
+    }
+    
+    
+    footer {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 14px;
+        background: #1E1E1E;
+    }
+      
+    .footerdata {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #D9D9D9;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    [class*="col-"] {
+        float: left;
+        padding: 10px;
+    }
+    /* To divide the div lengths accordingly */
+    
+    .col-1 {
+        width: 8.33%;
+    }
+    
+    .col-2 {
+        width: 16.66%;
+    }
+    
+    .col-3 {
+        width: 25%;
+    }
+    
+    .col-4 {
+        width: 33.33%;
+    }
+    
+    .col-5 {
+        width: 41.66%;
+    }
+    
+    .col-6 {
+        width: 50%;
+    }
+    
+    .col-7 {
+        width: 58.33%;
+    }
+    
+    .col-8 {
+        width: 66.66%;
+    }
+    
+    .col-9 {
+        width: 75%;
+    }
+    
+    .col-10 {
+        width: 83.33%;
+    }
+    
+    .col-11 {
+        width: 91.66%;
+    }
+    
+    .col-12 {
+        width: 100%;
+    }
+    
+    </style>
